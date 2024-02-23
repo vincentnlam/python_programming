@@ -111,3 +111,35 @@ values[1] = values
 print(values)
 
 # To do, 8, 10, 11
+
+def is_longer(L1: list, L2: list) -> bool:
+    """Return True if and only if the length of L1 is longer than the length
+    of L2.
+    >>> is_longer([1, 2, 3], [4, 5])
+    True
+    >>> is_longer(['abcdef'], ['ab', 'cd', 'ef'])
+    >>> is_longer(['a', 'b', 'c'], [1, 2, 3]
+    """
+    if len(L1) > len(L2):
+        return True
+    else: 
+        return False
+
+print(is_longer([1, 2, 3], [4, 5]))    
+print(is_longer(['abcdef'], ['ab', 'cd', 'ef']))
+print(is_longer(['a', 'b', 'c'], [1, 2, 3]))
+
+# exercise 10
+units = [['km', 'miles', 'league'], ['kg', 'pound', 'stone']]
+print(units[0])
+print(units[1])
+print(units[0][0])
+print(units[1][0])
+print(units[0][1:])
+print(units[1][0:2])
+print(units[-2])
+print(units[-1])
+print(units[-2][-3])
+print(units[-1][-3])
+print(units[-2][-2:])
+print(units[-1][-3:-1])
