@@ -104,3 +104,11 @@ for line in lines:
 
 #exercise 4
 #refer to read_lynx.py
+
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+
+#exercise 5 and 6 refer to read_smallest_skip.py
+
